@@ -8,6 +8,7 @@ namespace IntegralLib
   
     public class IntegralResultEventArgs : EventArgs
     {
+
         public double Result { get; set; }
         public long ElapsedTicks { get; set; }
     }
